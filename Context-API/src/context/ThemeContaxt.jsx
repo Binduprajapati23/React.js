@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { createContext } from 'react'
 
-const ThemeContaxt = () => {
+ export const ThemeDataContext = createContext()
+
+const ThemeContaxt = (props) => {
   return (
-    <div>ThemeContaxt</div>
+    <div>
+      <ThemeDataContext.Provider value='Bindu'>
+        {props.children}
+      </ThemeDataContext.Provider>
+    </div>
   )
 }
 
