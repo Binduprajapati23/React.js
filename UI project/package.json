@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "ui-project",
-=======
-  "name": "cardsproject",
->>>>>>> 1a8f90ff8d131ef5eed00bc4a3b872478e41c932
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,16 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@tailwindcss/vite": "^4.1.18",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "remixicon": "^4.7.0",
-    "tailwindcss": "^4.1.18"
-=======
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
->>>>>>> 1a8f90ff8d131ef5eed00bc4a3b872478e41c932
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
