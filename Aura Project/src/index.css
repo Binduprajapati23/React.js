@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
